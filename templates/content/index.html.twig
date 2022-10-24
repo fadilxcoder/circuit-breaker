@@ -9,9 +9,9 @@
 
 {% block body %}
 <main class="container">
-    <pre>
-        {{ dump(user)}}
-    </pre>
+    {# <pre> #}
+        {# dump(user) #}
+    {# </pre> #}
     {% for _user in users %}
         <li>{{ _user.username|e }}</li>
     {% endfor %}

@@ -23,7 +23,9 @@
         "mnapoli/silly": "^1.7",
         "fadilxcoder/chrome-php-logger": "^1.0",
         "fakerphp/faker": "^1.19",
-        "robmorgan/phinx": "^0.12.12"
+        "robmorgan/phinx": "^0.12.12",
+        "predis/predis": "^2.0",
+        "illuminate/support": "^9.36"
     },
     "require-dev": {
         "filp/whoops": "^2.13"

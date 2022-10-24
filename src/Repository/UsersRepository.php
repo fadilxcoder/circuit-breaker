@@ -8,6 +8,8 @@ class UsersRepository extends Repository
 {
     public function getUsers()
     {
+        throw new \Exception(); # <-- Raise exception to activate circuit breaker
+
         $query = '
             SELECT 
                 u.*
